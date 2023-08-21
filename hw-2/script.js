@@ -178,6 +178,8 @@ switch (toDoDay) {
     case 7:
         console.log('here is what tou are doing on the Sunday');
         break;
+    default:
+        console.log('Error')
 }
 
 //Task 2.5
