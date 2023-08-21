@@ -233,7 +233,7 @@ if (coursesAndDurationArray[5].monthDuration > 5) {
     console.log('Super')
 }
 
-// Or just cycle through the arr
+// Or just cycle through the arr :)
 
 for (const course of coursesAndDurationArray) {
     if (course.monthDuration > 5){
