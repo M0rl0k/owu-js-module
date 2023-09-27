@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Light", sans-serif;
+}
+
+#global-wrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background: aliceblue;
+}
+
+.user-block {
+    width: 400px;
+    height: 150px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+
+    margin: 20px 150px;
+}
+
+.user-block-details-link, .user-block-details-link:visited, .user-block-details-link:active {
+    text-decoration: none;
+
+    color: black;
+
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.user-block-details-link:hover {
+    border: 2px black dashed;
+}
+
+
+

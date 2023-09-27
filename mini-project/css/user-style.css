@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Light", sans-serif;
+}
+
+#global-wrapper {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    background: aliceblue;
+}
+.user-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px 40px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.user-block-details {
+    text-align: center;
+}
+
+.user-block-button {
+    width: 90%;
+
+    color: black;
+
+    padding: 20px 0;
+    border: 2px solid black;
+    border-radius: 15px;
+
+    background: powderblue;
+
+
+    font-size: 24px;
+}
+
+.user-block-button:hover {
+    cursor: pointer;
+
+    border: 2px black dashed;
+}
+
+.post-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.posts-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.posts-container-post-block {
+    width: 250px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 10px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.posts-container-post-block-link {
+    text-decoration: none;
+
+    color: black;
+
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.posts-container-post-block-link:hover {
+    border: 2px dashed black;
+}
